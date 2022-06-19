@@ -21,7 +21,6 @@ main {
   grid-template-columns: 150px 200px 130px;
   gap: 7px;
   margin: auto;
-  width: 400px;
 }
 
 .a {
@@ -49,6 +48,5 @@ main {
   main {
     margin: 0;
     padding: 0;
-    width: 100px;
   }
 }
