@@ -44,7 +44,7 @@ main {
   grid-area: e;
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   main {
     margin: 0;
     padding: 0;
@@ -57,4 +57,4 @@ body {
   padding:0;
 
 }
-}
+} */
