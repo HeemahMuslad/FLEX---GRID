@@ -5,9 +5,7 @@
 }
 body {
   background-color: rgb(18, 5, 43);
-
   display: flex;
-
   place-items: center;
   min-height: 100vh;
 }
@@ -21,6 +19,7 @@ main {
   grid-template-columns: 150px 200px 130px;
   gap: 7px;
   margin: auto  ;
+  
 }
 
 .a {
@@ -44,17 +43,14 @@ main {
   grid-area: e;
 }
 
-/* @media screen and (max-width: 375px) {
-  main {
+ @media screen and (max-width: 375px) {
+ main {
     margin: 0;
     padding: 0;
-    flex-direction: column;
-  }
-  
+    grid-column-end: 10px;
+    grid-column-start: 10px;
+ }
 body {
-
-
-  padding:0;
-
+padding:10px;
 }
-} */
+}
