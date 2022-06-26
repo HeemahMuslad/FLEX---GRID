@@ -8,6 +8,7 @@ body {
   display: flex;
   place-items: center;
   min-height: 100vh;
+
 }
 main {
   display: grid;
@@ -18,7 +19,9 @@ main {
   grid-template-rows: 80px 50px 60px;
   grid-template-columns: 150px 200px 130px;
   gap: 7px;
+   
   margin: auto  ;
+
   
 }
 
@@ -43,14 +46,8 @@ main {
   grid-area: e;
 }
 
- @media screen and (max-width: 375px) {
- main {
-    margin: 0;
-    padding: 0;
-    grid-column-end: 10px;
-    grid-column-start: 10px;
+ @media screen and (min-width: 375px) {
+ main {grid-template-columns: repeat(5,fr);
  }
-body {
-padding:10px;
-}
-}
+
+} 
